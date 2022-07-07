@@ -6,12 +6,16 @@ h1 {
     font-size: 50px;
 }
 
+h2 {
+    font-size: 30px;
+}
+
 .pink-color {
     color: palevioletred;
 
 }
 
-section {
+.flexible-container {
     display: flex;
     margin-bottom: 100px;
 }
@@ -20,6 +24,7 @@ section {
     width: 70%;
     padding-left: 5%;
     padding-right: 5%;
+
 }
 
 .half-width img {
@@ -44,4 +49,28 @@ section {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.mc-area {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.character-item {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 10px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 30px pink;
+    border-left: 7px solid palevioletred;
+}
+
+#kinomoto-sakura {
+    border-left: 7px solid tomato;
+}
+
+footer p {
+    text-align: center;
 }
